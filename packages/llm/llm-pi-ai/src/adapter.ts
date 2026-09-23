@@ -61,6 +61,7 @@ import { idleWatchdog, timeoutOf } from '@deepseek-ai/dsh-timeout'
 import type { ResolvedPiAiProviderProfile } from './config.ts'
 import { toPiContext } from './context.ts'
 import { createModels, getSupportedThinkingLevels } from './models.ts'
+import { withGeminiFunctionCallSignature } from './google-thought-signature.ts'
 import { toStreamChunks } from './stream.ts'
 import { promoteTextToolCallStream } from './text-tool-call.ts'
 
@@ -381,6 +382,7 @@ export class PiAiAdapter extends LlmAdapter {
         }, onReplayDegrade)
       const events = snapshot.models.streamSimple(model, context, {
         ...profileOptions(profile, reasoning, apiKey),
+        onPayload: (payload, requested) => withGeminiFunctionCallSignature(payload, requested),
         ...model.api === 'openai-completions' ? { fetch: fetchWithErrorEnvelope } : {},
         ...options.temperature === undefined ? {} : { temperature: options.temperature },
         ...options.maxTokens === undefined ? {} : { maxTokens: options.maxTokens },

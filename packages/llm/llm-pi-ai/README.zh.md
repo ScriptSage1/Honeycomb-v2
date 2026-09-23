@@ -147,6 +147,7 @@ Settings 写入会在合并组合层与用户层后严格校验每个新增或�
 | [`src/stream.ts`](src/stream.ts) | 把 pi-ai 事件转换为 harness `StreamChunk` 值 |
 | [`src/text-tool-call.ts`](src/text-tool-call.ts) | 可选地把一个文本形式的 `{ name, arguments }` 对象提升为工具调用 |
 | [`src/replay.ts`](src/replay.ts) | 带版本的 `ReplayEnvelope` 存储与校验 |
+| [`src/google-thought-signature.ts`](src/google-thought-signature.ts) | 发送前补齐 Gemini 3 函数调用的 thought signature |
 | [`src/discovery.ts`](src/discovery.ts) | 面向配置界面的端点询问 |
 
 ### 注册与目录
@@ -182,7 +183,7 @@ Settings 写入会在合并组合层与用户层后严格校验每个新增或�
 
 #### 模型看到什么
 
-所选目录模型会收到一条系统提示词（`GenerateOptions.system`，否则取历史中首条 `system` 消息的文本；首条 system 消息文本为空时不发送系统提示词）、其余历史、工具与 pi-ai 通用流式 API 支持的采样字段。每张保留图片前都会有文本，注明其完整附件 id 与实际请求尺寸。当前执行文件系统可以映射附件提供方的宿主对象时，该文本还会携带只读规范化对象路径，并警告规范化或请求投影可能缩放或重新编码上传内容。日志中的图片省略决策选中的每个出现位置都会在替换文本中保留自己的身份与当前已解析访问方式，其规范化附件不会读取或变换。当保留的出现位置按精确 base64 载荷仍超过路由的 `maxRequestImageBytes` 时，调用以 `IMAGE_OFFLOAD_REQUIRED` 失败，由 `dsh-compaction-image-offload` 用 `image/offload` 事件记录所选位置并重试步骤。提供方原生回放元数据只在适配器针对历史内容校验通过后恢复。
+所选目录模型会收到一条系统提示词（`GenerateOptions.system`，否则取历史中首条 `system` 消息的文本；首条 system 消息文本为空时不发送系统提示词）、其余历史、工具与 pi-ai 通用流式 API 支持的采样字段。每张保留图片前都会有文本，注明其完整附件 id 与实际请求尺寸。当前执行文件系统可以映射附件提供方的宿主对象时，该文本还会携带只读规范化对象路径，并警告规范化或请求投影可能缩放或重新编码上传内容。日志中的图片省略决策选中的每个出现位置都会在替换文本中保留自己的身份与当前已解析访问方式，其规范化附件不会读取或变换。当保留的出现位置按精确 base64 载荷仍超过路由的 `maxRequestImageBytes` 时，调用以 `IMAGE_OFFLOAD_REQUIRED` 失败，由 `dsh-compaction-image-offload` 用 `image/offload` 事件记录所选位置并重试步骤。提供方原生回放元数据只在适配器针对历史内容校验通过后恢复。Gemini 3 的一轮模型回复中，第一个函数调用没有已存储的 thought signature 时，请求会带上 Google 的 `skip_thought_signature_validator` 值，以便工具结果能够继续；已存储的签名保持不变，同一轮中更后的函数调用保持不带签名。
 
 #### Token 影响
 
@@ -225,6 +226,7 @@ pi-ai 事件变成 harness 的推理、文本、工具调用、用量与 finish 
 - **模态声明不受校验**——声明 `image` 而其网关不支持的模型会在提示词准入后被提供方拒绝。持久图片仍留在历史中，同一误声明模型可能再次失败；切换到纯文本模型仍然可行，因为共享 LLM 运行时会针对该请求把图片引用投影为稳定文本。
 - **未认证路由取决于其协议**——不点名凭据的路由解析为已配置但无密钥，但 pi-ai 的 OpenAI 兼容实现仍要求 API 密钥或 `Authorization` 标头，因此无密钥本地服务器需要由 `apiKeyEnv` 引用或 `headers` 中的 `Authorization` 条目提供的占位凭据。
 - **`promoteTextToolCalls` 会把回复保留到提供方结束**——路由判断文本是否是一次工具调用期间，不会转发 token 增量。检查器无法读取的 schema（`oneOf`、`anyOf`、`allOf`、`$ref`、`not` 或 `patternProperties`）也会让回复保持为文本。
+- **补上的 Gemini thought signature 不是模型原来的签名**——已存储调用没有签名时，skip 值让后续请求能够成功。Gemini 随后会在没有该调用原始推理签名的情况下继续。
 - **不支持 `GenerateOptions.stop`**——pi-ai 的通用流式选项无法跨提供方保证停止序列行为。
 - **只有历史中首条 `system` 消息会成为 pi-ai 的 `systemPrompt`**——pi-ai 只有一个系统槽位，因此后续的 `system` 消息，或在同时设置了 `GenerateOptions.system` 时的首条消息，会在原位置折叠为 `user` 消息；系统提示词的提供方专属放置遵循 pi-ai，而非 harness 自有的协议覆盖。system 或 assistant 历史中的图片（包括首条系统消息中的图片）在两条转换路径上都会以 `UNSUPPORTED_CONTENT` 失败。
 - **提供方 HTTP 状态不可用**——pi-ai 错误事件不跨提供方暴露稳定 HTTP 状态。
