@@ -1,0 +1,3 @@
+$ node --import tsx/esm apps/cli/src/bin.ts "web" "--patch" "apps/web/tests/pin-browse-picker.overlay.yml" "--port" "4173"
+dsh web: http://127.0.0.1:4173/?token=vT-L3KxDpcJQ0cwDmksnQUYPQLvtO6Xn8R0dIxRUD6w
+dsh web: opening the default browser; pass --no-open to disable

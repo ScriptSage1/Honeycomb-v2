@@ -1,0 +1,676 @@
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+ RUN  v4.1.8 C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master
+
+ ❯ |thread-safe| packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts (4 tests | 2 failed) 8ms
+     × shares and cancels the wide shell trailing padding structurally 5ms
+     × keeps the slotted brand row at the full artwork height 1ms
+ ❯ |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts (21 tests | 11 failed) 91ms
+     × seeds the initial font size from the boot-script body variable, ignoring junk 15ms
+     × setFontSize switches, writes through the scope, and republishes; same value is a no-op 6ms
+     × rejects out-of-range and fractional font sizes 5ms
+     × adopts a published Host font size without writing it back 3ms
+     × setTheme switches, writes through the scope, republishes, and keeps DOM untouched 3ms
+     × adopts a published Host section without writing it back 2ms
+     × registered themes join the snapshot; disposing the active one resets to default 4ms
+     × revision increases monotonically across every publish 4ms
+     × replacing one source leaves its stale disposer harmless 3ms
+       × system resolves against the media query and follows OS flips 2ms
+       × OS flips do not republish while a concrete preference is set 1ms
+ ❯ |thread-safe| packages/client/ui-layout/tests/apply.client.spec.ts (6 tests | 1 failed) 270ms
+     × theme presenter applies the initial snapshot, follows theme/change, and unwinds on dispose 16ms
+ ❯ |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx (25 tests | 1 failed) 791ms
+     × hero phase: keeps sidebar controls accessible while hiding conversation chrome 33ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 15 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > hero phase: keeps sidebar controls accessible while hiding conversation chrome
+TestingLibraryElementError: Unable to find an element with the text: 预览版. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <div
+      class="_root_f1cc6e"
+      data-phase="hero"
+      style="--dsh-conversation-column-width: 0px;"
+    >
+      <div
+        class="_workbenchTopbar_f1cc6e"
+      >
+        <div>
+          <span
+            class="_eyebrow_f1cc6e"
+          >
+            工作台
+          </span>
+          <h2>
+            让好想法成为成果。
+          </h2>
+        </div>
+        <div
+          aria-hidden="true"
+          class="_mascot_508a3e"
+        >
+          <div
+            class="_comb_508a3e"
+          >
+            <i />
+            <i />
+            <i />
+            <i />
+            <i />
+            <i />
+            <i />
+          </div>
+          <svg
+            class="_bee_508a3e"
+            shape-rendering="crispEdges"
+            viewBox="0 0 16 12"
+          >
+            <g
+              class="_wing_508a3e"
+            >
+              <path
+                class="_cream_508a3e"
+                d="M3 2h2v1H3zM2 3h3v1H2zM11 2h2v1h-2zM11 3h3v1h-3z"
+              />
+            </g>
+            <path
+              class="_wax_508a3e"
+              d="M7 3h2v6H7zM10 3h2v6h-2z"
+            />
+            <path
+              class="_ink_508a3e"
+              d="M6 4h1v2H6zM9 3h1v6H9zM12 4h1v4h-1zM13 5h1v2h-1zM8 9h1v1H8zM11 9h1v1h-1z"
+            />
+          </svg>
+          <span
+            class="_speck_508a3e"
+          />
+          <span
+            class="_speck_508a3e"
+          />
+          <span
+            class="_speck_508a3e"
+          />
+        </div>
+      </div>
+      <header
+        class="_header_f1cc6e _headerBlank_f1cc6e"
+      >
+        <div
+          class="_titleRow_f1cc6e"
+        >
+          <div
+            class="_headerLeading_f1cc6e"
+            data-conversation-header-leading=""
+          >
+            <div
+              data-testid="view-conversation.session.header.leading"
+            />
+          </div>
+          <div
+            class="_headerCorner_f1cc6e"
+            data-conversation-header-corner=""
+          >
+            <div
+              data-testid="view-conversation.session.header.corner"
+            />
+          </div>
+        </div>
+      </header>
+      <div
+        class="_body_f1cc6e"
+        data-content-phase="hero"
+        data-conversation-content=""
+      >
+        <div
+          class="_scrollBody_f1cc6e"
+          data-conversation-scroll=""
+        >
+          <div
+            class="_composerSeat_f1cc6e"
+            data-composer-seat=""
+          >
+            <div
+              class="_composerStack_f1cc6e _composerHero_f1cc6e"
+            >
+              <div
+                class="_root_0aaf6f"
+              >
+                <div
+                  class="_stack_0aaf6f"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="_orbit_0aaf6f"
+                  >
+                    <span
+                      class="_ringOne_0aaf6f"
+                    />
+                    <span
+                      class="_ringTwo_0aaf6f"
+                    />
+                    <div
+                      class="_core_0aaf6f"
+                    >
+                      <div
+                        data-testid="view-conversation.hero.brand.mark"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="_kicker_0aaf6f"
+                  >
+                    DEEPSEEK HARNESS • 你的工作区
+                  </span>
+                  <h1
+                    class="_headline_0aaf6f"
+                  >
+                    探索未至之境
+                  </h1>
+                  <p
+                    class="_description_0aaf6f"
+                  >
+                    探索文件、构建实用成果，并查看每一步。工具和模型汇集在同一个工作台。
+                  </p>
+                  <div
+                    class="_starters_0aaf6f"
+                  >
+                    <button
+                      class="_starter_0aaf6f"
+                      type="button"
+                    >
+                      探索工作区
+                      <span
+                        aria-hidden="true"
+                      >
+                        ↗
+                      </span>
+                    </button>
+                    <button
+                      class="_starter_0aaf6f"
+                      type="button"
+                    >
+                      构建实用功能
+                      <span
+                        aria-hidden="true"
+                      >
+                        ↗
+                      </span>
+                    </button>
+                    <button
+                      class="_starter_0aaf6f"
+                      type="button"
+                    >
+                      审查我的更改
+                      <span
+                        aria-hidden="true"
+                      >
+                        ↗
+                      </span>
+                    </button>
+                    <button
+                      class="_starter_0aaf6f"
+                      type="button"
+                    >
+                      解释项目架构
+                      <span
+                        aria-hidden="true"
+                      >
+                        ↗
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="_heroWorkspaceRow_f1cc6e"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  aria-label="选择工作区"
+                  class="_workspace_0aaf6f"
+                  type="button"
+                >
+                  <svg
+                    class="_folder_0aaf6f"
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                  >
+                    <path
+                      d="M5.19629 1.57104C5.81144 1.5711 6.38623 1.8786 6.72754 2.39038L7.19922 3.09839C7.28454 3.22635 7.42824 3.30344 7.58203 3.30347H12.1699C13.5039 3.30348 14.5859 4.38548 14.5859 5.71948V6.62671C15.2694 7.02689 15.6605 7.85012 15.4385 8.68726L14.3848 12.658C14.1037 13.7164 13.1449 14.4527 12.0498 14.4529H2.91699C1.51651 14.4529 0.451662 13.2814 0.501954 11.9519V3.98706C0.501954 2.65305 1.58396 1.57104 2.91797 1.57104H5.19629ZM3.7793 7.75562C3.30994 7.75562 2.89883 8.07153 2.77832 8.52515L1.91602 11.7722C1.74167 12.4291 2.23734 13.073 2.91699 13.073H12.0498C12.5191 13.0728 12.9304 12.757 13.0508 12.3035L14.1045 8.33374C14.1819 8.04202 13.9619 7.756 13.6602 7.75562H3.7793ZM2.91797 2.9519C2.34625 2.9519 1.88281 3.41534 1.88281 3.98706V7.2937C2.33068 6.7269 3.02249 6.37476 3.7793 6.37476H13.2051V5.71948C13.2051 5.14777 12.7416 4.68434 12.1699 4.68433H7.58203C6.96675 4.6843 6.39209 4.37595 6.05078 3.86401L5.5791 3.15601C5.49379 3.02821 5.34995 2.95196 5.19629 2.9519H2.91797Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M13.6602 7.75525C13.9618 7.7556 14.1815 8.04179 14.1045 8.33337L13.0508 12.3031C12.9304 12.7567 12.5191 13.0725 12.0498 13.0726H2.91701C2.23744 13.0725 1.7417 12.4287 1.91603 11.7719L2.77834 8.52478C2.89898 8.07146 3.31018 7.75532 3.77931 7.75525H13.6602ZM5.1963 2.95154C5.34985 2.95159 5.49377 3.02803 5.57912 3.15564L6.0508 3.86365C6.39205 4.37553 6.96685 4.68385 7.58205 4.68396H12.1699C12.7416 4.68396 13.2049 5.14754 13.2051 5.71912V6.37439H3.77931C3.02267 6.37444 2.33067 6.72671 1.88283 7.29333V3.98669C1.88299 3.4152 2.34649 2.95168 2.91798 2.95154H5.1963Z"
+                      fill="currentColor"
+                      opacity="0.2"
+                    />
+                  </svg>
+                  <span
+                    class="_workspaceLabel_0aaf6f"
+                  >
+                    one
+                  </span>
+                  <svg
+                    class="_chevron_0aaf6f"
+                    fill="none"
+                    height="12"
+                    viewBox="0 0 14 14"
+                    width="12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.8486 5.5L11.4238 5.92383L8.69727 8.65137C8.44157 8.90706 8.21562 9.13382 8.01172 9.29785C7.79912 9.46883 7.55595 9.61756 7.25 9.66602C7.08435 9.69222 6.91565 9.69222 6.75 9.66602C6.44405 9.61756 6.20088 9.46883 5.98828 9.29785C5.78438 9.13382 5.55843 8.90706 5.30273 8.65137L2.57617 5.92383L2.15137 5.5L3 4.65137L3.42383 5.07617L6.15137 7.80273C6.42595 8.07732 6.59876 8.24849 6.74023 8.3623C6.87291 8.46904 6.92272 8.47813 6.9375 8.48047C6.97895 8.48703 7.02105 8.48703 7.0625 8.48047C7.07728 8.47813 7.12709 8.46904 7.25977 8.3623C7.40124 8.24849 7.57405 8.07732 7.84863 7.80273L10.5762 5.07617L11 4.65137L11.8486 5.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+                <div
+                  data-testid="view-conversation.hero.agentPreset"
+                />
+              </div>
+              <div
+                data-testid="view-conversation.input.dock"
+              />
+              <div
+                class="_root_497bd7 _hero_497bd7"
+              >
+                <div
+                  class="_card_497bd7"
+                  data-composer-card="true"
+                >
+                  <div
+                    class="_overlayAnchor_497bd7"
+                  />
+                  <div
+                    class="_scroll_497bd7"
+                    data-input-scroll="true"
+                  >
+                    <div
+                      class="_grow_497bd7"
+                    >
+                      <div
+                        aria-label="描述你想要构建的内容, / 调用指令, @ 文件或对话"
+                        aria-multiline="true"
+                        autocapitalize="off"
+                        class="_input_497bd7"
+                        contenteditable="true"
+                        data-composer-input="true"
+                        data-lexical-editor="true"
+                        data-phase="plain"
+                        data-placeholder="描述你想要构建的内容, / 调用指令, @ 文件或对话"
+                        role="textbox"
+                        style="user-select: text; white-space: pre-wrap; word-break: break-word;"
+                      >
+                        <p
+                          dir="auto"
+                        >
+                          <span
+                            data-lexical-text="true"
+                          >
+                            ordinary draft
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="_row_497bd7"
+                  >
+                    <div
+                      class="_tools_497bd7"
+                    >
+                      <button
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-label="添加文件或调用指令"
+                        class="_add_497bd7"
+                        type="button"
+                      >
+                        <svg
+                          fill="none"
+                          height="14"
+                          viewBox="0 0 16 16"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8.64453 1.5V7.34961H14.5V8.65039H8.64453V14.5H7.34473V8.65039H1.5V7.34961H7.34473V1.5H8.64453Z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                      <input
+                        hidden=""
+                        multiple=""
+                        type="file"
+                      />
+                      <div
+                        class="_modes_497bd7"
+                      />
+                    </div>
+                    <div
+                      class="_trailing_497bd7"
+                    >
+                      <button
+                        aria-label="发送消息"
+                        class="_primary_497bd7"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          width="16"
+                        >
+                          <path
+                            d="M8.3125 0.980183C8.66767 1.0531 8.97902 1.20418 9.2627 1.43233C9.48724 1.61297 9.73029 1.85793 9.97949 2.10714L14.707 6.83468L13.293 8.24874L9 3.95577V15.0417H7V3.95577L2.70703 8.24874L1.29297 6.83468L6.02051 2.10714C6.26971 1.85793 6.51277 1.61297 6.7373 1.43233C6.97662 1.23986 7.28445 1.04402 7.6875 0.980183C7.8973 0.947006 8.1031 0.95516 8.3125 0.980183Z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="_dock_497bd7"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+ ❯ Object.getElementError node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ packages/client/ui-conversation/tests/skeleton.client.spec.tsx:539:19
+    537|     expect(b.slotCalls).not.toContain('conversation.session.header.act…
+    538|     expect(b.view.getByText('探索未至之境')).toBeTruthy()
+    539|     expect(b.view.getByText('预览版')).toBeTruthy()
+       |                   ^
+    540|     expect(b.view.queryByTestId('view-chat')).toBeNull()
+    541|     // The same machine-backed textarea is live in the hero, and the
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-layout/tests/apply.client.spec.ts > ui-layout client apply > theme presenter applies the initial snapshot, follows theme/change, and unwinds on dispose
+AssertionError: expected 'dark' to be 'light' // Object.is equality
+
+Expected: "light"
+Received: "dark"
+
+ ❯ packages/client/ui-layout/tests/apply.client.spec.ts:129:56
+    127|     await fiber.await()
+    128|     // Initial getter application: jsdom has no matchMedia, system res…
+    129|     expect(document.documentElement.style.colorScheme).toBe('light')
+       |                                                        ^
+    130|     expect(document.body.hasAttribute('data-ds-dark-theme')).toBe(fals…
+    131|     const themeColorMeta = document.head.querySelector<HTMLMetaElement…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts > SidebarRoot.module.css > shares and cancels the wide shell trailing padding structurally
+AssertionError: expected '18px' to be '12px' // Object.is equality
+
+Expected: "12px"
+Received: "18px"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts:31:55
+     29|   it('shares and cancels the wide shell trailing padding structurally'…
+     30|     const root = declarations('.root')
+     31|     expect(root?.get('--dsh-sidebar-inline-padding')).toBe('12px')
+       |                                                       ^
+     32|     expect(root?.get('padding')).toBe('6px var(--dsh-sidebar-inline-pa…
+     33|     expect(declarations('.regionArea')?.get('margin-left')).toBe('-4px…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts > SidebarRoot.module.css > keeps the slotted brand row at the full artwork height
+AssertionError: expected '40px' to be '24px' // Object.is equality
+
+Expected: "24px"
+Received: "40px"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts:68:59
+     66|
+     67|   it('keeps the slotted brand row at the full artwork height', () => {
+     68|     expect(declarations('.brandIdentity')?.get('height')).toBe('24px')
+       |                                                           ^
+     69|     expect(declarations('.brandName')?.get('height')).toBe('24px')
+     70|     expect(declarations('.brandName')?.get('line-height')).toBe('24px')
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > seeds the initial font size from the boot-script body variable, ignoring junk
+AssertionError: expected 14 to be 16 // Object.is equality
+
+- Expected
++ Received
+
+- 16
++ 14
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:52:48
+     50|     document.body.style.setProperty('--dsh-content-font-size', '16px')
+     51|     try {
+     52|       expect(make().theme.getTheme().fontSize).toBe(16)
+       |                                                ^
+     53|       document.body.style.setProperty('--dsh-content-font-size', '99px…
+     54|       expect(make().theme.getTheme().fontSize).toBe(14)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > setFontSize switches, writes through the scope, and republishes; same value is a no-op
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:65:20
+     63|     expect(theme.getTheme().fontSize).toBe(17)
+     64|     expect(host.set).toHaveBeenCalledWith('fontSize', 17)
+     65|     expect(events).toHaveLength(1)
+       |                    ^
+     66|     theme.setFontSize(17)
+     67|     expect(events).toHaveLength(1)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > rejects out-of-range and fractional font sizes
+AssertionError: expected [ { preference: 'system', …(4) } ] to have a length of +0 but got 1
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:76:20
+     74|       expect(() => { theme.setFontSize(px) }).toThrow('outside 12..17')
+     75|     }
+     76|     expect(events).toHaveLength(0)
+       |                    ^
+     77|     expect(host.set).not.toHaveBeenCalled()
+     78|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > adopts a published Host font size without writing it back
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:84:20
+     82|     host.publish({ status: 'ready', value: { preference: 'system', fon…
+     83|     expect(theme.getTheme().fontSize).toBe(12)
+     84|     expect(events).toHaveLength(1)
+       |                    ^
+     85|     expect(host.set).not.toHaveBeenCalled()
+     86|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > setTheme switches, writes through the scope, republishes, and keeps DOM untouched
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:94:20
+     92|     expect(theme.getTheme().active.colorScheme).toBe('dark')
+     93|     expect(host.set).toHaveBeenCalledWith('preference', 'dark')
+     94|     expect(events).toHaveLength(1)
+       |                    ^
+     95|     expect(events[0]).toBe(theme.getTheme())
+     96|     // The service never touches presentation state.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > adopts a published Host section without writing it back
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:108:20
+    106|     host.publish({ status: 'ready', value: { preference: 'dark', fontS…
+    107|     expect(theme.getTheme().preference).toBe('dark')
+    108|     expect(events).toHaveLength(1)
+       |                    ^
+    109|     expect(host.set).not.toHaveBeenCalled()
+    110|     host.publish({ value: { preference: 'dark', fontSize: 14 }, revisi…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > registered themes join the snapshot; disposing the active one resets to default
+AssertionError: expected 4 to be 3 // Object.is equality
+
+- Expected
++ Received
+
+- 3
++ 4
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:141:27
+    139|     expect(host.set).not.toHaveBeenCalled()
+    140|     // register + set + dispose = three publishes; disposer is idempot…
+    141|     expect(events.length).toBe(3)
+       |                           ^
+    142|     dispose()
+    143|     expect(events.length).toBe(3)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > revision increases monotonically across every publish
+AssertionError: expected [ 1, 2, 3, 4, 5 ] to deeply equal [ 1, 2, 3, 4 ]
+
+- Expected
++ Received
+
+  [
+    1,
+    2,
+    3,
+    4,
++   5,
+  ]
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:160:41
+    158|     const dispose = theme.register({ id: 'sepia', colorScheme: 'dark',…
+    159|     dispose()
+    160|     expect(events.map(e => e.revision)).toEqual([1, 2, 3, 4])
+       |                                         ^
+    161|   })
+    162|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > replacing one source leaves its stale disposer harmless
+AssertionError: expected [ Array(4) ] to have a length of 3 but got 4
+
+- Expected
++ Received
+
+- 3
++ 4
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:204:20
+    202|     current()
+    203|     expect(theme.getTheme().active.tokens).toEqual({})
+    204|     expect(events).toHaveLength(3)
+       |                    ^
+    205|   })
+    206|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > prefers-color-scheme resolution (stubbed matchMedia) > system resolves against the media query and follows OS flips
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:282:22
+    280|       media.flip()
+    281|       expect(theme.getTheme().active.id).toBe('light')
+    282|       expect(events).toHaveLength(1)
+       |                      ^
+    283|     })
+    284|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/15]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > prefers-color-scheme resolution (stubbed matchMedia) > OS flips do not republish while a concrete preference is set
+AssertionError: expected [ Array(2) ] to have a length of 1 but got 2
+
+- Expected
++ Received
+
+- 1
++ 2
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:289:22
+    287|       const { theme, events } = make()
+    288|       theme.setTheme('light')
+    289|       expect(events).toHaveLength(1)
+       |                      ^
+    290|       media.flip()
+    291|       expect(events).toHaveLength(1)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/15]⎯
+
+
+  Snapshots  4 updated 
+ Test Files  4 failed | 22 passed (26)
+      Tests  15 failed | 253 passed (268)
+   Start at  19:36:32
+   Duration  7.94s (transform 36.84s, setup 6.55s, import 60.43s, tests 6.84s, environment 24.63s)
+

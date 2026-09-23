@@ -1,0 +1,42 @@
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+ RUN  v4.1.8 C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master
+
+ ❯ |process-bound| packages/llm/llm-pi-ai/tests/adapter.spec.ts (53 tests | 1 failed) 583ms
+     × preserves Google error envelopes for HTTP 400 14ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |process-bound| packages/llm/llm-pi-ai/tests/adapter.spec.ts > PiAiAdapter provider routing > preserves Google error envelopes for HTTP 400
+AssertionError: expected { kind: 'error', failure: { …(2) } } to match object { kind: 'error', failure: { …(2) } }
+
+- Expected
++ Received
+
+  {
+    "failure": {
+      "code": "INVALID_REQUEST",
+-     "message": StringContaining "Invalid JSON payload received. Unknown name \"store\".",
++     "message": "400: {\"code\":400,\"message\":\"Invalid JSON payload received. Unknown name \\\"store\\\".\"}",
+    },
+    "kind": "error",
+  }
+
+ ❯ packages/llm/llm-pi-ai/tests/adapter.spec.ts:84:27
+     82|     const ctx = await harness(server.url)
+     83|     const result = await assemble(ctx, { model: 'deepseek-v4-flash', m…
+     84|     expect(result.finish).toMatchObject({ kind: 'error', failure: { co…
+       |                           ^
+     85|     expect(server.requests).toHaveLength(1)
+     86|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 135 passed (136)
+   Start at  21:26:03
+   Duration  1.59s (transform 1.26s, setup 587ms, import 1.11s, tests 607ms, environment 0ms)
+

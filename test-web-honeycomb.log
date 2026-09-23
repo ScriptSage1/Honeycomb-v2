@@ -1,0 +1,182 @@
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+ RUN  v4.1.8 C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master
+
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts (14 tests | 6 failed) 72662ms
+     × shows active Plan as the warn-state status action 2080ms
+     × sends the first prompt from the empty-state hero (all modes) 15126ms
+     × materialized a real Workspace and Session over the wire 15143ms
+     × pins an open Think header to the conversation scrollport (real layout) 15105ms
+     × recovers the whole surface across a reload from the log alone 15494ms
+     × cascades the dark theme from the body attribute to painted surfaces 128ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode)
+AssertionError: Web replay fixture C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\snapshots\web\lifecycle-chrome\session.v3.jsonl must match one live root session: expected [] to have a length of 1 but got +0
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ assertReplaySession apps/web/tests/scaffold.ts:1119:92
+    1117|     return JSON.stringify(actual) === JSON.stringify(userPrompts)
+    1118|   })
+    1119|   expect(candidates, `Web replay fixture ${fixturePath} must match one…
+       |                                                                                            ^
+    1120|   const session = candidates[0] as Session
+    1121|   const sessionCwd = session.header.cwd
+ ❯ Object.close apps/web/tests/scaffold.ts:920:11
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:70:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode)
+Error: llm-replay: fixture not fully consumed — 1 recorded script(s) never bound to a live session; the scenario drove fewer model calls than recorded
+ ❯ Object.assertConsumed packages/test-support/llm-replay/src/index.ts:1112:15
+    1110|       }
+    1111|       if (problems.length > 0) {
+    1112|         throw new Error(`llm-replay: fixture not fully consumed — ${pr…
+       |               ^
+    1113|       }
+    1114|     },
+ ❯ Object.close apps/web/tests/scaffold.ts:937:25
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:70:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/8]⎯
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > shows active Plan as the warn-state status action
+AssertionError: expected '- button "New session"\n- button "Col…' to be '- button "New session"\n- button "Col…' // Object.is equality
+
+- Expected
++ Received
+
+@@ -20,14 +20,22 @@
+      - text: workspace
+    - treeitem "New Session" [selected]
+  - button "Settings":
+    - img
+    - text: Settings
+- - banner:
+-   - button "Open right sidebar":
+-     - img
+- - text: Into the Unknown Preview
++ - text: WORKBENCH
++ - heading "Make room for good work." [level=2]
++ - banner:
++   - button "Open right sidebar":
++     - img
++ - text: DEEPSEEK HARNESS • YOUR WORKSPACE
++ - heading "A little curiosity. Real work." [level=1]
++ - paragraph: Explore your files, build something useful, and follow every step. Your tools and models, together in one workbench.
++ - button "Explore this workspace"
++ - button "Build something useful"
++ - button "Review my changes"
++ - button "Explain the architecture"
+  - button "Choose workspace":
+    - img
+    - text: workspace
+    - img
+  - button "Standard mode":
+
+ ❯ compareOrRefreshGolden apps/web/tests/scaffold.ts:1605:19
+    1603|     throw new Error(`missing golden ${goldenPath} — run DSH_SNAPSHOT=r…
+    1604|   }
+    1605|   expect(payload).toBe(await readFile(goldenPath, 'utf8'))
+       |                   ^
+    1606| }
+    1607|
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:220:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > sends the first prompt from the empty-state hero (all modes)
+AssertionError: expected +0 to be 1 // Object.is equality
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:263:112
+    261|     // The blank frame renders the hero, not the resident composer: the
+    262|     // headline plus the guidance placeholder are the empty state's an…
+    263|     await expect.poll(() => page.getByText('Into the Unknown', { exact…
+       |                                                                                                                ^
+    264|     const input = page.locator('[data-composer-input]').first()
+    265|     await input.waitFor({ timeout: 10_000 })
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:263:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > materialized a real Workspace and Session over the wire
+AssertionError: expected 0 to be greater than or equal to 1
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:332:105
+    330|     ).toBeGreaterThanOrEqual(1)
+    331|     await expect.poll(() => page.locator('[role="treeitem"][aria-selec…
+    332|     await expect.poll(() => page.getByText('LIGHTHOUSE', { exact: true…
+       |                                                                                                         ^
+    333|     // The usage pill's one label span concatenates the billed total a…
+    334|     await expect.poll(() => page.getByRole('button', { name: /Cache hi…
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:332:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > pins an open Think header to the conversation scrollport (real layout)
+TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('[data-variant="think"]').first()
+
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:355:20
+    353|     // seeded-history.e2e.ts, whose summary length that suite controls.
+    354|     const thinkRow = page.locator('[data-variant="think"]').first()
+    355|     await thinkRow.waitFor({ state: 'attached', timeout: 15_000 })
+       |                    ^
+    356|     const process = page.locator('[data-turn-process]').first()
+    357|     const processWasOpen = await process.getAttribute('aria-expanded')…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > recovers the whole surface across a reload from the log alone
+AssertionError: expected 0 to be greater than or equal to 1
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:395:105
+    393|     // the replay cursor was fully consumed before the reload, so any …
+    394|     // request would fail the scenario loudly at close().
+    395|     await expect.poll(() => page.getByText('LIGHTHOUSE', { exact: true…
+       |                                                                                                         ^
+    396|     await expect.poll(() => page.locator('[role="treeitem"][aria-selec…
+    397|     // Golden of the recovered conversation region: rebuilt from the l…
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:395:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/8]⎯
+
+ FAIL  apps/web/tests/lifecycle-chrome.e2e.ts > web e2e: lifecycle & chrome (workspace flow / reload / dark mode) > cascades the dark theme from the body attribute to painted surfaces
+AssertionError: expected '#1c140c' not to be '#1c140c' // Object.is equality
+ ❯ apps/web/tests/lifecycle-chrome.e2e.ts:430:28
+    428|     const dark = await sample()
+    429|     // The alias token itself must flip — the cascade's root fact.
+    430|     expect(dark.token).not.toBe(light.token)
+       |                            ^
+    431|     // And a real painted surface must consume it (not just variables …
+    432|     // void): at least one of the sampled backgrounds repaints.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/8]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  6 failed | 9 passed (15)
+   Start at  20:48:33
+   Duration  77.64s (transform 873ms, setup 0ms, import 1.94s, tests 75.42s, environment 0ms)
+

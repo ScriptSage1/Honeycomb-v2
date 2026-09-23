@@ -1,0 +1,54 @@
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+ RUN  v4.1.8 C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master
+
+ ❯ |thread-safe| apps/cli/tests/local-files.spec.ts (3 tests | 2 failed) 37019ms
+   × executes local write, read, edit and read through the src CLI and real Loader 2487ms
+   × executes local write, read, edit and read through the lib CLI and real Loader 1057ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |thread-safe| apps/cli/tests/local-files.spec.ts > executes local write, read, edit and read through the src CLI and real Loader
+Error: local file round trip exited 1 (expected 0). stdout:
+
+
+stderr:
+dsh: UNKNOWN: [{"type":"tool-result","toolCallId":"file-0","content":[{"type":"text","text":"Error: cannot read \"C:\\Users\\shaik\\AppData\\Local\\Temp\\dsh-local-files-Su9qsa\": not a regular file"}],"isError":true}]
+
+ ❯ runLoaderSmoke packages/test-support/loader-smoke/src/index.ts:249:13
+    247|     const expectedExitCode = options.expectedExitCode ?? 0
+    248|     if (result.exitCode !== expectedExitCode) {
+    249|       throw new Error(`${options.label} exited ${String(result.exitCod…
+       |             ^
+    250|     }
+    251|     await options.inspect?.(cwd)
+ ❯ apps/cli/tests/local-files.spec.ts:10:18
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |thread-safe| apps/cli/tests/local-files.spec.ts > executes local write, read, edit and read through the lib CLI and real Loader
+Error: local file round trip exited 1 (expected 0). stdout:
+
+
+stderr:
+dsh: UNKNOWN: [{"type":"tool-result","toolCallId":"file-0","content":[{"type":"text","text":"Error: cannot read \"C:\\Users\\shaik\\AppData\\Local\\Temp\\dsh-local-files-qiRvMo\": not a regular file"}],"isError":true}]
+
+ ❯ runLoaderSmoke packages/test-support/loader-smoke/src/index.ts:249:13
+    247|     const expectedExitCode = options.expectedExitCode ?? 0
+    248|     if (result.exitCode !== expectedExitCode) {
+    249|       throw new Error(`${options.label} exited ${String(result.exitCod…
+       |             ^
+    250|     }
+    251|     await options.inspect?.(cwd)
+ ❯ apps/cli/tests/local-files.spec.ts:10:18
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed (3)
+   Start at  09:56:52
+   Duration  37.70s (transform 414ms, setup 219ms, import 336ms, tests 37.02s, environment 0ms)
+

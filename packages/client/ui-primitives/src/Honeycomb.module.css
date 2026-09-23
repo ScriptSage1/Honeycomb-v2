@@ -1,0 +1,38 @@
+.mark { display: block; flex: none; }
+.wax { fill: var(--dsw-alias-honey-accent); }
+.ink { fill: var(--dsw-alias-honey-ink); }
+.honey { fill: var(--dsw-alias-honey-wax); }
+.cream { fill: var(--dsw-alias-honey-cream); }
+.mascot {
+  position: relative;
+  width: 72px;
+  height: 56px;
+  flex: none;
+  overflow: hidden;
+  border: 0.5px solid var(--dsw-alias-border-l3);
+  border-radius: 14px;
+  background: var(--dsw-alias-honey-soft);
+}
+.mascot[data-active] { border-color: var(--dsw-alias-honey-accent); }
+.comb { position: absolute; left: 8px; top: 10px; transform: scale(0.62); transform-origin: top left; }
+.comb i { position: absolute; width: 18px; height: 20px; background: var(--dsw-alias-honey-accent); clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%); }
+.comb i:nth-child(1) { left: 27px; top: 22px; }
+.comb i:nth-child(2) { left: 27px; top: 4px; animation-delay: 0.12s; }
+.comb i:nth-child(3) { left: 43px; top: 13px; animation-delay: 0.24s; }
+.comb i:nth-child(4) { left: 43px; top: 31px; animation-delay: 0.36s; }
+.comb i:nth-child(5) { left: 27px; top: 40px; animation-delay: 0.48s; }
+.comb i:nth-child(6) { left: 11px; top: 31px; animation-delay: 0.6s; }
+.comb i:nth-child(7) { left: 11px; top: 13px; animation-delay: 0.72s; }
+.bee { position: absolute; left: 34px; top: 4px; width: 32px; height: 24px; animation: beeHover 3.2s ease-in-out infinite; }
+.wing { transform-origin: center; animation: wingFlap 0.14s steps(2,end) infinite; }
+.mascot[data-active] .bee { animation-duration: 1.15s; }
+.mascot[data-active] .comb i { animation: combGlow 1.6s ease-in-out infinite; }
+.speck { position: absolute; left: 40px; top: 10px; width: 3px; height: 3px; opacity: 0; background: var(--dsw-alias-honey-bright); }
+.speck:nth-last-child(2) { left: 52px; top: 28px; animation-delay: 0.7s; }
+.speck:last-child { left: 22px; top: 6px; animation-delay: 1.3s; }
+.mascot[data-active] .speck { animation: pollenDrift 2.1s linear infinite; }
+@keyframes beeHover { 0%,100% { transform: translate(0,0) rotate(-6deg); } 25% { transform: translate(-10px,8px) rotate(4deg); } 50% { transform: translate(-28px,2px) rotate(-2deg); } 75% { transform: translate(-8px,-6px) rotate(8deg); } }
+@keyframes wingFlap { to { opacity: 0.35; } }
+@keyframes combGlow { 0%,100% { filter: brightness(0.92); } 50% { filter: brightness(1.22); } }
+@keyframes pollenDrift { 0% { opacity: 0; transform: none; } 15% { opacity: 1; } 100% { opacity: 0; transform: translate(18px,-22px); } }
+@media (prefers-reduced-motion: reduce) { .mascot *, .mascot[data-active] * { animation: none; } }

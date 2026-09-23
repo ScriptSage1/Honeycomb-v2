@@ -1,0 +1,22 @@
+- id: agent-default-model
+  config:
+    provider: local-file-test
+    model: qwen3.5:9b
+- id: llm-pi-ai
+  config:
+    providers:
+      local-file-test:
+        api: openai-completions
+        baseURL: http://127.0.0.1:11434/v1
+        headers:
+          Authorization: Bearer ollama
+        compat:
+          supportsStore: false
+          supportsDeveloperRole: false
+          maxTokensField: max_tokens
+        models:
+          - id: qwen3.5:9b
+            contextWindow: 32768
+            maxTokens: 4096
+- id: session-title-llm
+  disabled: true

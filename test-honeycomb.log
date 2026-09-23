@@ -1,0 +1,1438 @@
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+
+ RUN  v4.1.8 C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master
+
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > does not redispatch composer child slots for an unrelated Session publication
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+TypeError: props.t is not a function
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51)
+    at renderWithHooks (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:20103:13)
+    at beginWork (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\react-dom@18.3.1_react@18.3.1\node_modules\react-dom\cjs\react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\generated\idl\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:360:16)
+    at invokeEventListeners (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:296:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:243:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\shaik\OneDrive\Documents\ChatGPT\New project\deepseek-harness-master\node_modules\.pnpm\jsdom@29.1.1_@noble+hashes@2.3.0\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:114:17)
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > renders the composer inert with the blocker’s own reason
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > lets the no-workspace posture win over a block
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps composer text in the machine, mirrors to the Conversation store, and submits through the sink
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > shows hierarchy only for subagents and opens their ordinary owner
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps intermediate subagent breadcrumbs at the compact title size
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > active phase: fixed header outside the scrollport; sticky composer seat inside it
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > sticky composer seat wraps the whole overlay chain, not only the fallback stack
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > hero phase: keeps sidebar controls accessible while hiding conversation chrome
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps a rejected first prompt engaging instead of returning to the Hero
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > settling phase: a summary that does not prove the session blank hides the composer while it opens
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > settling phase: a session the list has no row for settles conservatively
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > startup auto-selection: a summary-proven blank session opens straight into the hero
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > same textarea DOM node survives the hero → active flip into the sticky scrollport
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps the Chat fallback selected by id when a view is inserted before it
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > rolls the pending workspace label back when switching fails
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > blank session keeps the interactive picker chip (workspace switchable until the first message)
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > prompt failure renders the promptError strip (ordinary failure, no transaction UI)
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > publishes the column width as a px variable for the shared width axis
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > drag → persist → window clamp round-trip on a width handle
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > forwards wheel scrolling from a width handle to the transcript
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > starts width dragging only from the primary pointer button
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+stderr | packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > hero phase renders no width handles (no transcript to size)
+The above error occurred in the <ConversationMainPanel> component:
+
+    at ConversationMainPanel (C:/Users/shaik/OneDrive/Documents/ChatGPT/New project/deepseek-harness-master/packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:19:10)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+ ❯ |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx (24 tests | 24 failed) 231ms
+     × renders the English preview badge through the hero locale seat 65ms
+     × does not redispatch composer child slots for an unrelated Session publication 27ms
+     × renders the composer inert with the blocker’s own reason 9ms
+     × lets the no-workspace posture win over a block 7ms
+     × keeps composer text in the machine, mirrors to the Conversation store, and submits through the sink 7ms
+     × shows hierarchy only for subagents and opens their ordinary owner 7ms
+     × keeps intermediate subagent breadcrumbs at the compact title size 5ms
+     × active phase: fixed header outside the scrollport; sticky composer seat inside it 5ms
+     × sticky composer seat wraps the whole overlay chain, not only the fallback stack 5ms
+     × hero phase: keeps sidebar controls accessible while hiding conversation chrome 7ms
+     × keeps a rejected first prompt engaging instead of returning to the Hero 7ms
+     × settling phase: a summary that does not prove the session blank hides the composer while it opens 5ms
+     × settling phase: a session the list has no row for settles conservatively 3ms
+     × startup auto-selection: a summary-proven blank session opens straight into the hero 2ms
+     × same textarea DOM node survives the hero → active flip into the sticky scrollport 5ms
+     × keeps the Chat fallback selected by id when a view is inserted before it 3ms
+     × rolls the pending workspace label back when switching fails 6ms
+     × blank session keeps the interactive picker chip (workspace switchable until the first message) 46ms
+     × prompt failure renders the promptError strip (ordinary failure, no transaction UI) 2ms
+     × publishes the column width as a px variable for the shared width axis 2ms
+     × drag → persist → window clamp round-trip on a width handle 2ms
+     × forwards wheel scrolling from a width handle to the transcript 1ms
+     × starts width dragging only from the primary pointer button 2ms
+     × hero phase renders no width handles (no transcript to size) 2ms
+ ❯ |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts (20 tests | 8 failed) 95ms
+     × defaults to the system preference resolved against prefers-color-scheme 8ms
+     × setTheme switches, writes through the scope, republishes, and keeps DOM untouched 2ms
+     × adopts a published Host section without writing it back 2ms
+     × registered themes join the snapshot; disposing the active one resets to default 1ms
+     × revision increases monotonically across every publish 2ms
+     × stacks reversible token overrides in call order and selects the active palette value 13ms
+     × replacing one source leaves its stale disposer harmless 1ms
+       × system resolves against the media query and follows OS flips 2ms
+ ❯ |thread-safe| packages/client/ui-layout/tests/apply.client.spec.ts (6 tests | 1 failed) 438ms
+     × theme presenter applies the initial snapshot, follows theme/change, and unwinds on dispose 11ms
+ ❯ |thread-safe| packages/client/ui-theme/tests/host.client.spec.ts (4 tests | 3 failed) 23ms
+     × answers each collection with the current durable preference until disposal 7ms
+     × uses the system preference without a settings provider 3ms
+     × falls back to the schema default while the theme namespace holds no section 2ms
+ ❯ |thread-safe| packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx (5 tests | 4 failed) 1098ms
+     × renders the expanded column in the default locale (zh, no setLocale) 486ms
+     × renders the expanded column (wordmark, capsule, empty holes) 93ms
+     × renders the collapsed rail after the crossfade settles, in place 294ms
+     × renders Windows caption controls in expanded and collapsed states 93ms
+ ❯ |thread-safe| packages/client/ui-theme/tests/boot-theme.client.spec.ts (7 tests | 4 failed) 17ms
+     × colors the body with head CSS before applying body state 7ms
+     × lets durable light override a dark OS and clears stale dark state 1ms
+     × uses a media query for the system canvas palette 1ms
+     × defaults to system and falls back to light when matchMedia is unavailable 2ms
+Warning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+ ❯ |thread-safe| packages/client/ui-sidebar-documentpreview/tests/document-bytes.client.spec.ts (2 tests | 1 failed) 271ms
+   × decodes a large response within a bounded JavaScript heap 266ms
+ ❯ |thread-safe| packages/client/ui-theme/tests/client-styles.client.spec.ts (1 test | 1 failed) 23ms
+     × mounts every global sheet in dependency order and removes them on dispose 22ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 46 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > Hero chrome > renders the English preview badge through the hero locale seat
+TestingLibraryElementError: Unable to find an element with the text: Into the Unknown. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <div
+      class="_root_0aaf6f"
+    >
+      <div
+        class="_stack_0aaf6f"
+      >
+        <div
+          aria-hidden="true"
+          class="_orbit_0aaf6f"
+        >
+          <span
+            class="_ringOne_0aaf6f"
+          />
+          <span
+            class="_ringTwo_0aaf6f"
+          />
+          <div
+            class="_core_0aaf6f"
+          />
+        </div>
+        <span
+          class="_kicker_0aaf6f"
+        >
+          DEEPSEEK HARNESS • YOUR WORKSPACE
+        </span>
+        <h1
+          class="_headline_0aaf6f"
+        >
+          A little curiosity. Real work.
+        </h1>
+        <p
+          class="_description_0aaf6f"
+        >
+          Explore your files, build something useful, and follow every step. Your tools and models, together in one workbench.
+        </p>
+        <div
+          class="_starters_0aaf6f"
+        >
+          <button
+            class="_starter_0aaf6f"
+            type="button"
+          >
+            Explore this workspace
+            <span
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+          </button>
+          <button
+            class="_starter_0aaf6f"
+            type="button"
+          >
+            Build something useful
+            <span
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+          </button>
+          <button
+            class="_starter_0aaf6f"
+            type="button"
+          >
+            Review my changes
+            <span
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+          </button>
+          <button
+            class="_starter_0aaf6f"
+            type="button"
+          >
+            Explain the architecture
+            <span
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+ ❯ Object.getElementError node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.1/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ packages/client/ui-conversation/tests/skeleton.client.spec.tsx:376:17
+    374|     const renderSlot = vi.fn<HeroShellProps['renderSlot']>(() => null)
+    375|     const view = render(<HeroShell t={makeTranslate(en, commonEn)} ren…
+    376|     expect(view.getByText('Into the Unknown')).toBeTruthy()
+       |                 ^
+    377|     expect(view.getByText('Preview')).toBeTruthy()
+    378|     expect(renderSlot).toHaveBeenCalledOnce()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > does not redispatch composer child slots for an unrelated Session publication
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > renders the composer inert with the blocker’s own reason
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > lets the no-workspace posture win over a block
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps composer text in the machine, mirrors to the Conversation store, and submits through the sink
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > shows hierarchy only for subagents and opens their ordinary owner
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps intermediate subagent breadcrumbs at the compact title size
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > active phase: fixed header outside the scrollport; sticky composer seat inside it
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > sticky composer seat wraps the whole overlay chain, not only the fallback stack
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > hero phase: keeps sidebar controls accessible while hiding conversation chrome
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps a rejected first prompt engaging instead of returning to the Hero
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > settling phase: a summary that does not prove the session blank hides the composer while it opens
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > settling phase: a session the list has no row for settles conservatively
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > startup auto-selection: a summary-proven blank session opens straight into the hero
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > same textarea DOM node survives the hero → active flip into the sticky scrollport
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > keeps the Chat fallback selected by id when a view is inserted before it
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > rolls the pending workspace label back when switching fails
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > blank session keeps the interactive picker chip (workspace switchable until the first message)
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > prompt failure renders the promptError strip (ordinary failure, no transaction UI)
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > publishes the column width as a px variable for the shared width axis
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > drag → persist → window clamp round-trip on a width handle
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > forwards wheel scrolling from a width handle to the transcript
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > starts width dragging only from the primary pointer button
+ FAIL  |thread-safe| packages/client/ui-conversation/tests/skeleton.client.spec.tsx > ConversationRoot resident composer > hero phase renders no width handles (no transcript to size)
+TypeError: props.t is not a function
+ ❯ ConversationMainPanel packages/client/ui-conversation/src/client/skeleton/ConversationMainPanel.tsx:47:51
+     45|     <div className={css.root} data-phase={phase}>
+     46|       <div className={css.workbenchTopbar}>
+     47|         <div><span className={css.eyebrow}>{props.t('shell.kicker')}</…
+       |                                                   ^
+     48|           <h2>{props.t('shell.title')}</h2></div>
+     49|         <HiveStatus active={session?.running === true} />
+ ❯ renderWithHooks node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:15486:18
+ ❯ mountIndeterminateComponent node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:20103:13
+ ❯ beginWork node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:21626:16
+ ❯ beginWork$1 node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:26505:5
+ ❯ renderRootSync node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:26473:7
+ ❯ recoverFromConcurrentError node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:25889:20
+ ❯ performConcurrentWorkOnRoot node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js:25789:22
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-layout/tests/apply.client.spec.ts > ui-layout client apply > theme presenter applies the initial snapshot, follows theme/change, and unwinds on dispose
+AssertionError: expected 'dark' to be 'light' // Object.is equality
+
+Expected: "light"
+Received: "dark"
+
+ ❯ packages/client/ui-layout/tests/apply.client.spec.ts:129:56
+    127|     await fiber.await()
+    128|     // Initial getter application: jsdom has no matchMedia, system res…
+    129|     expect(document.documentElement.style.colorScheme).toBe('light')
+       |                                                        ^
+    130|     expect(document.body.hasAttribute('data-ds-dark-theme')).toBe(fals…
+    131|     const themeColorMeta = document.head.querySelector<HTMLMetaElement…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx > sidebar shell snapshots > renders the expanded column in the default locale (zh, no setLocale)
+Error: Snapshot `sidebar shell snapshots > renders the expanded column in the default locale (zh, no setLocale) 1` mismatched
+
+- Expected
++ Received
+
+@@ -25,15 +25,15 @@
+                data-slot="sidebar.brand.mark"
+                style="display: contents;"
+              >
+                <svg
+                  aria-hidden="true"
+-                 data-content="965fe321"
+-                 fill="none"
++                 class="mark"
++                 data-content="15e58a44"
+-                 height="17.6580310880829"
++                 height="32"
+-                 viewBox="0 0 23.16 17.04"
++                 viewBox="0 0 48 48"
+-                 width="24"
++                 width="32"
+                />
+              </div>
+            </span>
+            <span
+              class="brandName"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx:60:28
+     58|     // Wordmark + capsule both start a session in the expanded state.
+     59|     expect(slot.view.getAllByRole('button', { name: '新建会话' })).toHaveL…
+     60|     expect(slot.container).toMatchSnapshot()
+       |                            ^
+     61|     await runtime.dispose()
+     62|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx > sidebar shell snapshots > renders the expanded column (wordmark, capsule, empty holes)
+Error: Snapshot `sidebar shell snapshots > renders the expanded column (wordmark, capsule, empty holes) 1` mismatched
+
+- Expected
++ Received
+
+@@ -25,15 +25,15 @@
+                data-slot="sidebar.brand.mark"
+                style="display: contents;"
+              >
+                <svg
+                  aria-hidden="true"
+-                 data-content="965fe321"
+-                 fill="none"
++                 class="mark"
++                 data-content="15e58a44"
+-                 height="17.6580310880829"
++                 height="32"
+-                 viewBox="0 0 23.16 17.04"
++                 viewBox="0 0 48 48"
+-                 width="24"
++                 width="32"
+                />
+              </div>
+            </span>
+            <span
+              class="brandName"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx:69:28
+     67|     // Wordmark + capsule both start a session in the expanded state.
+     68|     expect(slot.view.getAllByRole('button', { name: 'New session' })).…
+     69|     expect(slot.container).toMatchSnapshot()
+       |                            ^
+     70|     await runtime.dispose()
+     71|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx > sidebar shell snapshots > renders the collapsed rail after the crossfade settles, in place
+Error: Snapshot `sidebar shell snapshots > renders the collapsed rail after the crossfade settles, in place 1` mismatched
+
+- Expected
++ Received
+
+@@ -22,15 +22,15 @@
+              data-slot="sidebar.brand.mark"
+              style="display: contents;"
+            >
+              <svg
+                aria-hidden="true"
+-               data-content="965fe321"
+-               fill="none"
++               class="mark"
++               data-content="15e58a44"
+-               height="17.6580310880829"
++               height="32"
+-               viewBox="0 0 23.16 17.04"
++               viewBox="0 0 48 48"
+-               width="24"
++               width="32"
+              />
+            </div>
+          </span>
+          <svg
+            class="panelIcon"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx:83:28
+     81|       expect(slot.view.getAllByRole('button', { name: 'New session' })…
+     82|     })
+     83|     expect(slot.container).toMatchSnapshot()
+       |                            ^
+     84|     // Same tree position: the owner flip re-rendered the shell in pla…
+     85|     expect(slot.container.firstElementChild).toBe(shell)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx > sidebar shell snapshots > renders Windows caption controls in expanded and collapsed states
+Error: Snapshot `sidebar shell snapshots > renders Windows caption controls in expanded and collapsed states > windows expanded 1` mismatched
+
+- Expected
++ Received
+
+@@ -25,15 +25,15 @@
+                data-slot="sidebar.brand.mark"
+                style="display: contents;"
+              >
+                <svg
+                  aria-hidden="true"
+-                 data-content="965fe321"
+-                 fill="none"
++                 class="mark"
++                 data-content="15e58a44"
+-                 height="17.6580310880829"
++                 height="32"
+-                 viewBox="0 0 23.16 17.04"
++                 viewBox="0 0 48 48"
+-                 width="24"
++                 width="32"
+                />
+              </div>
+            </span>
+            <span
+              class="brandName"
+
+ ❯ packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx:105:30
+    103|     try {
+    104|       const slot = runtime.renderSlot('sidebar', { collapsed: false, w…
+    105|       expect(slot.container).toMatchSnapshot('windows expanded')
+       |                              ^
+    106|       slot.update({ collapsed: true, width: 0 })
+    107|       expect(slot.view.getAllByRole('button', { name: 'New session' })…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-sidebar-documentpreview/tests/document-bytes.client.spec.ts > decodes a large response within a bounded JavaScript heap
+AssertionError: node:os:306
+    throw new ERR_SYSTEM_ERROR(ctx);
+          ^
+
+SystemError [ERR_SYSTEM_ERROR]: A system error occurred: uv_os_get_passwd returned ENOMEM (not enough memory)
+    at Object.userInfo (node:os:306:11)
+    at file:///C:/Users/shaik/OneDrive/Documents/ChatGPT/New%20project/deepseek-harness-master/node_modules/.pnpm/tsx@4.22.4/node_modules/tsx/dist/temporary-directory-BDDVQOvU.mjs:1:84
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:96:9) {
+  code: 'ERR_SYSTEM_ERROR',
+  info: {
+    errno: -4057,
+    code: 'ENOMEM',
+    message: 'not enough memory',
+    syscall: 'uv_os_get_passwd'
+  },
+  errno: [Getter/Setter],
+  syscall: [Getter/Setter]
+}
+
+Node.js v24.18.0
+: expected 1 to be +0 // Object.is equality
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ ../../New%20project/deepseek-harness-master/node_modules/.pnpm/tsx@4.22.4/node_modules/tsx/dist/temporary-directory-BDDVQOvU.mjs:1:84
+ ❯ packages/client/ui-sidebar-documentpreview/tests/document-bytes.client.spec.ts:29:38
+     27|   expect(child.error).toBeUndefined()
+     28|   expect(child.signal, child.stderr).toBeNull()
+     29|   expect(child.status, child.stderr).toBe(0)
+       |                                      ^
+     30|   expect(child.stdout).toBe(String(12 * 1024 * 1024))
+     31| })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/boot-theme.client.spec.ts > theme bootstrap row > colors the body with head CSS before applying body state
+AssertionError: expected ':root{color-scheme:dark}body{backgrou…' to be ':root{color-scheme:dark}body{backgrou…' // Object.is equality
+
+Expected: ":root{color-scheme:dark}body{background-color:#151517;--dsh-boot-bg:#151517}"
+Received: ":root{color-scheme:dark}body{background-color:#1c140c;--dsh-boot-bg:#1c140c}"
+
+ ❯ packages/client/ui-theme/tests/boot-theme.client.spec.ts:35:23
+     33|     expect(body).toMatchObject({ kind: 'script', placement: 'body' })
+     34|     if (head?.kind !== 'style') throw new Error('theme head bootstrap …
+     35|     expect(head.text).toBe(':root{color-scheme:dark}body{background-co…
+       |                       ^
+     36|     expect(document.body.hasAttribute(DARK_ATTRIBUTE)).toBe(false)
+     37|     if (body?.kind !== 'script') throw new Error('theme body bootstrap…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/boot-theme.client.spec.ts > theme bootstrap row > lets durable light override a dark OS and clears stale dark state
+AssertionError: expected ':root{color-scheme:light}body{backgro…' to be ':root{color-scheme:light}body{backgro…' // Object.is equality
+
+Expected: ":root{color-scheme:light}body{background-color:#fff;--dsh-boot-bg:#fff}"
+Received: ":root{color-scheme:light}body{background-color:#f5eddc;--dsh-boot-bg:#f5eddc}"
+
+ ❯ packages/client/ui-theme/tests/boot-theme.client.spec.ts:48:23
+     46|     const [head] = bootThemeInjections('light')
+     47|     if (head?.kind !== 'style') throw new Error('theme head bootstrap …
+     48|     expect(head.text).toBe(':root{color-scheme:light}body{background-c…
+       |                       ^
+     49|     executeBootstrap('light')
+     50|     expect(document.body.hasAttribute(DARK_ATTRIBUTE)).toBe(false)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/boot-theme.client.spec.ts > theme bootstrap row > uses a media query for the system canvas palette
+AssertionError: expected ':root{color-scheme:light}body{backgro…' to be ':root{color-scheme:light}body{backgro…' // Object.is equality
+
+Expected: ":root{color-scheme:light}body{background-color:#fff;--dsh-boot-bg:#fff}@media(prefers-color-scheme:dark){:root{color-scheme:dark}body{background-color:#151517;--dsh-boot-bg:#151517}}"
+Received: ":root{color-scheme:light}body{background-color:#f5eddc;--dsh-boot-bg:#f5eddc}@media(prefers-color-scheme:dark){:root{color-scheme:dark}body{background-color:#1c140c;--dsh-boot-bg:#1c140c}}"
+
+ ❯ packages/client/ui-theme/tests/boot-theme.client.spec.ts:66:23
+     64|     const [head] = bootThemeInjections('system')
+     65|     if (head?.kind !== 'style') throw new Error('theme head bootstrap …
+     66|     expect(head.text).toBe(
+       |                       ^
+     67|       ':root{color-scheme:light}body{background-color:#fff;--dsh-boot-…
+     68|       + '@media(prefers-color-scheme:dark){:root{color-scheme:dark}bod…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/boot-theme.client.spec.ts > theme bootstrap row > defaults to system and falls back to light when matchMedia is unavailable
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ packages/client/ui-theme/tests/boot-theme.client.spec.ts:75:56
+     73|     vi.stubGlobal('matchMedia', undefined)
+     74|     executeBootstrap()
+     75|     expect(document.body.hasAttribute(DARK_ATTRIBUTE)).toBe(false)
+       |                                                        ^
+     76|   })
+     77|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/client-styles.client.spec.ts > ui-theme client styles > mounts every global sheet in dependency order and removes them on dispose
+AssertionError: expected [ …(7) ] to deeply equal [ …(6) ]
+
+- Expected
++ Received
+
+@@ -3,6 +3,7 @@
+    "@deepseek-ai/dsh-client-ui-theme/corner-shape.css",
+    "@deepseek-ai/dsh-client-ui-theme/design-platform.css",
+    "@deepseek-ai/dsh-client-ui-theme/scrollbar.css",
+    "@deepseek-ai/dsh-client-ui-theme/gradient-shadow-text.css",
+    "@deepseek-ai/dsh-client-ui-theme/shiki.css",
++   "@deepseek-ai/dsh-client-ui-theme/honeycomb.css",
+  ]
+
+ ❯ packages/client/ui-theme/tests/client-styles.client.spec.ts:22:58
+     20|
+     21|     const styles = [...document.head.querySelectorAll<HTMLStyleElement…
+     22|     expect(styles.map(style => style.dataset.pluginCss)).toEqual([
+       |                                                          ^
+     23|       `${PLUGIN_ID}/base.css`,
+     24|       `${PLUGIN_ID}/corner-shape.css`,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/host.client.spec.ts > ui-theme host > answers each collection with the current durable preference until disposal
+AssertionError: expected ':root{color-scheme:dark}body{backgrou…' to contain '@media(prefers-color-scheme:dark)'
+
+Expected: "@media(prefers-color-scheme:dark)"
+Received: ":root{color-scheme:dark}body{background-color:#1c140c;--dsh-boot-bg:#1c140c}"
+
+ ❯ packages/client/ui-theme/tests/host.client.spec.ts:60:30
+     58|     expect(rows[1]).toMatchObject({ kind: 'script', placement: 'body' …
+     59|     expect(rows[2]).toMatchObject({ kind: 'script', placement: 'head',…
+     60|     expect(rowText(rows[0])).toContain('@media(prefers-color-scheme:da…
+       |                              ^
+     61|     expect(rowText(rows[1])).toContain('const preference = "system"')
+     62|     expect(rowText(rows[1])).toContain('"14px"')
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/host.client.spec.ts > ui-theme host > uses the system preference without a settings provider
+AssertionError: expected '(() => {\n  const preference = "dark"…' to contain 'const preference = "system"'
+
+- Expected
++ Received
+
+- const preference = "system"
++ (() => {
++   const preference = "dark"
++   const systemDark = preference === 'system'
++     && typeof matchMedia !== 'undefined'
++     && matchMedia('(prefers-color-scheme: dark)').matches
++   const dark = preference === 'dark' || systemDark
++   document.documentElement.dataset.dsThemeSource = preference
++   document.body.toggleAttribute('data-ds-dark-theme', dark)
++   document.body.style.setProperty('--dsh-content-font-size', "14px")
++ })()
+
+ ❯ packages/client/ui-theme/tests/host.client.spec.ts:74:38
+     72|     const ctx = new Context()
+     73|     await ctx.plugin({ apply }).await()
+     74|     expect(rowText(collect(ctx)[1])).toContain('const preference = "sy…
+       |                                      ^
+     75|   })
+     76|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/host.client.spec.ts > ui-theme host > falls back to the schema default while the theme namespace holds no section
+AssertionError: expected '(() => {\n  const preference = "dark"…' to contain 'const preference = "system"'
+
+- Expected
++ Received
+
+- const preference = "system"
++ (() => {
++   const preference = "dark"
++   const systemDark = preference === 'system'
++     && typeof matchMedia !== 'undefined'
++     && matchMedia('(prefers-color-scheme: dark)').matches
++   const dark = preference === 'dark' || systemDark
++   document.documentElement.dataset.dsThemeSource = preference
++   document.body.toggleAttribute('data-ds-dark-theme', dark)
++   document.body.style.setProperty('--dsh-content-font-size', "14px")
++ })()
+
+ ❯ packages/client/ui-theme/tests/host.client.spec.ts:83:38
+     81|     ctx.provide('settings', { register: () => () => {}, get: () => und…
+     82|     await ctx.plugin({ apply }).await()
+     83|     expect(rowText(collect(ctx)[1])).toContain('const preference = "sy…
+       |                                      ^
+     84|   })
+     85| })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > defaults to the system preference resolved against prefers-color-scheme
+AssertionError: expected 'dark' to be 'system' // Object.is equality
+
+Expected: "system"
+Received: "dark"
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:28:33
+     26|     const { theme } = make()
+     27|     const snapshot = theme.getTheme()
+     28|     expect(snapshot.preference).toBe('system')
+       |                                 ^
+     29|     expect(snapshot.fontSize).toBe(14)
+     30|     // jsdom matchMedia is absent; system resolves to light.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > setTheme switches, writes through the scope, republishes, and keeps DOM untouched
+AssertionError: expected "vi.fn()" to be called with arguments: [ 'preference', 'dark' ]
+
+Number of calls: 0
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:82:22
+     80|     expect(theme.getTheme().preference).toBe('dark')
+     81|     expect(theme.getTheme().active.colorScheme).toBe('dark')
+     82|     expect(host.set).toHaveBeenCalledWith('preference', 'dark')
+       |                      ^
+     83|     expect(events).toHaveLength(1)
+     84|     expect(events[0]).toBe(theme.getTheme())
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > adopts a published Host section without writing it back
+AssertionError: expected [] to have a length of 1 but got +0
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:97:20
+     95|     host.publish({ status: 'ready', value: { preference: 'dark', fontS…
+     96|     expect(theme.getTheme().preference).toBe('dark')
+     97|     expect(events).toHaveLength(1)
+       |                    ^
+     98|     expect(host.set).not.toHaveBeenCalled()
+     99|     host.publish({ value: { preference: 'dark', fontSize: 14 }, revisi…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > registered themes join the snapshot; disposing the active one resets to default
+AssertionError: expected 'dark' to be 'system' // Object.is equality
+
+Expected: "system"
+Received: "dark"
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:124:41
+    122|     expect(theme.getTheme().active.tokens['--dsw-alias-bg-base']).toBe…
+    123|     dispose()
+    124|     expect(theme.getTheme().preference).toBe('system')
+       |                                         ^
+    125|     expect(theme.getTheme().themes.map(t => t.id)).toEqual(['light', '…
+    126|     // Custom ids are in-process extension themes; only the built-in p…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > revision increases monotonically across every publish
+AssertionError: expected [ 1, 2, 3 ] to deeply equal [ 1, 2, 3, 4 ]
+
+- Expected
++ Received
+
+  [
+    1,
+    2,
+    3,
+-   4,
+  ]
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:149:41
+    147|     const dispose = theme.register({ id: 'sepia', colorScheme: 'dark',…
+    148|     dispose()
+    149|     expect(events.map(e => e.revision)).toEqual([1, 2, 3, 4])
+       |                                         ^
+    150|   })
+    151|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > stacks reversible token overrides in call order and selects the active palette value
+AssertionError: expected { '--shared': 'second-dark', …(1) } to match object { '--first': 'first-only-light', …(1) }
+
+- Expected
++ Received
+
+  {
+-   "--first": "first-only-light",
+-   "--shared": "second-light",
++   "--first": "first-only-dark",
++   "--shared": "second-dark",
+  }
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:164:44
+    162|     })
+    163|
+    164|     expect(theme.getTheme().active.tokens).toMatchObject({
+       |                                            ^
+    165|       '--first': 'first-only-light',
+    166|       '--shared': 'second-light',
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > replacing one source leaves its stale disposer harmless
+AssertionError: expected { '--new': 'new-dark' } to deeply equal { '--new': 'new-light' }
+
+- Expected
++ Received
+
+  {
+-   "--new": "new-light",
++   "--new": "new-dark",
+  }
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:189:44
+    187|     })
+    188|     stale()
+    189|     expect(theme.getTheme().active.tokens).toEqual({ '--new': 'new-lig…
+       |                                            ^
+    190|     current()
+    191|     current()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/46]⎯
+
+ FAIL  |thread-safe| packages/client/ui-theme/tests/theme.client.spec.ts > ThemeRuntime > prefers-color-scheme resolution (stubbed matchMedia) > system resolves against the media query and follows OS flips
+AssertionError: expected 'dark' to be 'system' // Object.is equality
+
+Expected: "system"
+Received: "dark"
+
+ ❯ packages/client/ui-theme/tests/theme.client.spec.ts:267:43
+    265|       const media = stubMedia(true)
+    266|       const { theme, events } = make()
+    267|       expect(theme.getTheme().preference).toBe('system')
+       |                                           ^
+    268|       expect(theme.getTheme().active.id).toBe('dark')
+    269|       media.flip()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/46]⎯
+
+
+  Snapshots  4 failed
+             1 obsolete
+             ↳ packages/client/ui-sidebar/tests/sidebar-snapshot.client.spec.tsx
+               · sidebar shell snapshots > renders Windows caption controls in expanded and collapsed states > windows collapsed 1
+
+ Test Files  8 failed | 91 passed | 2 skipped (101)
+      Tests  46 failed | 896 passed | 2 skipped (944)
+   Start at  19:33:53
+   Duration  34.64s (transform 87.49s, setup 16.78s, import 258.64s, tests 29.92s, environment 278.84s)
+

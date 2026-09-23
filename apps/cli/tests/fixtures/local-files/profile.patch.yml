@@ -1,0 +1,7 @@
+- id: agent-default-model
+  config:
+    provider: file-test
+    model: file-test
+- insert:
+    - id: local-files-test-provider
+      name: './provider.mjs'
